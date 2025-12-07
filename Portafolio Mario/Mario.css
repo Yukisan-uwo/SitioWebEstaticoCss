@@ -16,6 +16,7 @@ nav.menu{
     left: 0;
     top: 0;
     width: 100%;
+    z-index: 10;
 }
 li .listaMenu{
     color: black;
