@@ -1,0 +1,165 @@
+body{
+    background: rgb(204, 223, 224);
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.contenedorPrincipal{
+    width: 1450px;
+    height: 1575px;
+    margin: auto;
+    margin-top: 65px;
+}
+nav.menu{
+    background: rgb(243, 253, 252);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+li .listaMenu{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    width: 33.33%;
+    float: left;
+    text-align:center;
+    padding: 20px 0;
+}
+li .listaMenu:hover{
+    background: #376CB8;
+    color: white;
+    cursor: pointer;
+}
+ul.menulista{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.resumen{
+    padding: 10px 160px 10px;
+}
+.contenedorSecundario{
+    height: 1373px;
+}
+.detallesProfesionales{
+    background: rgb(255, 255, 255);
+    width: 30%;
+    height: 1364px;
+    float: left;
+    text-align: center;
+    border-radius: 15px;
+}
+.fotodePerfil{
+    height: 370px;
+}
+ul.listaDetallesPro{
+    list-style-type: none;
+    padding: 0;
+    float: left;
+    margin: 20px 39px 70px;
+}
+li.listaDetallesPro{
+    color:rgb(0, 0, 0);
+    padding: 10px 8px 0;
+    text-align: left;
+    font-size: 17px;
+}
+li.listaDetallesPro.datosDetails{
+    font-weight: bold;
+}
+ul.listaRedes{
+    list-style-type: none;
+    padding: 0;
+    float: left;
+    margin: 20px 39px 70px;
+}
+li.elementosRedes img{
+    width: 15%;
+    margin: 15px auto;
+}
+li.elementosRedes img:hover{
+    transform: translateY(-0.4rem);
+}
+.redes{
+    border-top: 5px solid black;
+    float: left;
+    text-align: center;
+    background: url(../img/fondoredes.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.sobreMi{
+    margin: 0 35px 0;
+    background: rgb(255, 255, 255);
+    width: 65%;
+    height: 1373px;
+    float: left;
+    border-radius: 15px;
+}
+.sobreMi .tituloSobreMi{
+    padding: 0 45px 0;
+    border-bottom: 5px solid black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+li.listaDetallesPro a.enlaceGit{
+    text-decoration: none;
+    color: rgb(0, 0, 117);
+    cursor: pointer;
+}
+.sobreMi .tituloSobreMi2{
+    padding: 0 45px 0;
+    border-bottom: 5px solid black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.parrafoSobreMi{
+    color: black;
+    font-size: 17px;
+    padding: 10px 45px 10px;
+    margin-top: 5px;
+}
+.proyectos{
+    padding: 15px 0 0 0;
+    background: rgb(204, 223, 224);
+    width: 89%;
+    margin: 10px 25px 10px;
+    padding: 10px 25px 5px;
+    float: left;
+    border-radius: 15px;
+}
+.proyectos:hover{
+    transform: translateY(-0.5rem);
+}
+.proyectos .SeparadorProyectoImg{
+    width: 45%;
+    float: left;
+}
+.proyectos .SeparadorProyectoImg h3{
+    color: blue;
+    border-left: 5px solid;
+    border-color: blue;
+    padding-left: 15px;
+}
+.proyectos .SeparadorProyectoImg h4, p{
+    padding-left: 22px;
+}
+.proyectos img{
+    width: 50%;
+    margin: 35px 18px;
+    float: left;
+    border-radius: 15px;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(37, 87, 7);
+}
+.piePagina{
+    background: rgb(204, 223, 224);
+    text-align: center;
+    padding: 13px;
+}
